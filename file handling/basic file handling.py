@@ -11,6 +11,7 @@ file.write("Name: Alice, Phone: 1234567890\n")
 file.write("Name: Bob, Phone: 9876543210\n")
 file.close()  # Important: close the file!
 
+
 # 2. Read and display contacts
 file = open("contacts.txt", "r")
 print("Contact List:")
