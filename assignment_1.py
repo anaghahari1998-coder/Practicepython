@@ -1,0 +1,6 @@
+name = input("Enter your name:")
+print(name)
+age = int(input("Enter your age:"))
+print(age)
+score = int(input("Enter your score:"))
+print(score)

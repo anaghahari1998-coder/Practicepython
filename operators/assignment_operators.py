@@ -1,0 +1,12 @@
+x = int(input("First number:"))
+print(x)
+y = int(input("Second number:"))
+print(y)
+print(x+y)
+print(y-x)
+print(x*y)
+print(x/y)
+print(x//y)
+print(x>y)
+print(y<=x and x>y)
+
