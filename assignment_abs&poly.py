@@ -1,15 +1,15 @@
-# from abc import ABC, abstractmethod
-#
-#
-# class Payment(ABC):
-#     @abstractmethod
-#     def pay(self):
-#         pass
-# class UPI(Payment):
-#     def pay(self):
-#         print("Payment can be done using UPI")
-# obj = UPI()
-# obj.pay()
+from abc import ABC, abstractmethod
+
+
+class Payment(ABC):
+    @abstractmethod
+    def pay(self):
+        pass
+class UPI(Payment):
+    def pay(self):
+        print("Payment can be done using UPI")
+obj = UPI()
+obj.pay()
 
 class Product:
     def prod(self, *args):
